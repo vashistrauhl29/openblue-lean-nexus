@@ -1,0 +1,7 @@
+streamlit
+pandas
+numpy
+plotly
+scikit-learn
+paho-mqtt
+# We will use simple heuristics for now, but keeping ready for AI integration
