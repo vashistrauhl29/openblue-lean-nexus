@@ -34,7 +34,7 @@ def render_rca_copilot():
         
         st.subheader("Step 2: AI-Generated Solution")
         if st.button("Generate Sustainment SOP"):
-            with st.spinner("Querying OpenBlue Knowledge Base..."):
+            with st.spinner("Querying OpenBlu Knowledge Base..."):
                 time.sleep(2)
                 st.markdown("""
                 ## **Standard Work: Laser Shaft Alignment (JCMS-M-04)**

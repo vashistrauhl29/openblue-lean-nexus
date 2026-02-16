@@ -5,7 +5,7 @@ from tabs.strategy import render_strategy
 
 # Configure the Streamlit page
 st.set_page_config(
-    page_title="OpenBlue Lean Nexus",
+    page_title="OpenBlu Lean Nexus",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -36,7 +36,7 @@ if 'carbon_waste' not in st.session_state:
 
 # Sidebar Navigation
 st.sidebar.title("Navigation")
-st.sidebar.checkbox("Connect to OpenBlue Bridge (Live)", value=False, disabled=True, help="Simulated Mode Active")
+st.sidebar.checkbox("Connect to OpenBlu Bridge (Live)", value=False, disabled=True, help="Simulated Mode Active")
 
 if st.sidebar.button("🔄 Reset Simulation Scenario"):
     st.session_state['current_vibration'] = 0.05
@@ -59,11 +59,11 @@ st.sidebar.info("Prototype for Johnson Controls | Built by Rahul Vashisht")
 
 # Main Content Area
 if selection == "Home":
-    st.title("Welcome to OpenBlue Lean Nexus")
+    st.title("Welcome to OpenBlu Lean Nexus")
     st.markdown("""
     ### Bridging the Gap: Net Zero Strategy to Shop Floor Execution
     
-    OpenBlue Lean Nexus is designed to be the digital bridge within Johnson Controls, 
+    OpenBlu Lean Nexus is designed to be the digital bridge within Johnson Controls, 
     aligning high-level **Net Zero** strategic goals with daily **Shop Floor** operational reality.
     
     This tool integrates lean principles with advanced digital insights to:

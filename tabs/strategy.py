@@ -95,4 +95,4 @@ def render_strategy():
             st.markdown("### 📋 Generated Policy Deployment Matrix (X-Matrix)")
             st.dataframe(df_matrix, use_container_width=True, hide_index=True)
             st.caption("✅ AI Agent has correlated 'P-101 Reliability' to 'Net Zero Scope 1' with Strong Correlation (●).")
-            st.info("ℹ️ Note: This output is simulated for prototype speed. In production, this would call the OpenBlue GenAI API.")
+            st.info("ℹ️ Note: This output is simulated for prototype speed. In production, this would call the OpenBlu GenAI API.")

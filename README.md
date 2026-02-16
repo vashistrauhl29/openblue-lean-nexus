@@ -1,4 +1,4 @@
-# OpenBlue Lean Nexus
+# OpenBlu Lean Nexus
 
 A Streamlit-based operational dashboard for Johnson Controls, bridging the gap between high-level **Net Zero** strategies and **Shop Floor** execution.
 
